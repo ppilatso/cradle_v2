@@ -1,4 +1,7 @@
 {
-  "extends": "next/core-web-vitals",
-  "indent": ["error", 2]
+  "extends": ["prettier","next/core-web-vitals"],
+  "rules": {
+    "semi": ["error", "always"],
+    "indent": ["error", 2]
+  }
 }

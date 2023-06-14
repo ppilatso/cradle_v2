@@ -28,11 +28,10 @@ module.exports = {
       },
       fontFamily: {
         sans: ["var(--font-inter)", ...default_theme.fontFamily.sans],
-        display: ["var(--font-calsans)"],
+        display: ["var(--font-JosefinSans)"],
       },
       backgroundImage: {
-        "gradient-radial":
-            "radial-gradient(50% 50% at 50% 50%, var(--tw-gradient-stops))",
+
       },
       animation: {
         "fade-in": "fade-in 3s ease-in-out forwards",
@@ -106,4 +105,4 @@ module.exports = {
     require("@tailwindcss/typography"),
     require("tailwindcss-debug-screens"),
   ],
-}
+};
