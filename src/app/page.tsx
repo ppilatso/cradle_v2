@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import Particles from "@/app/components/particles";
 
 const navigation = [
   { name: "Projects", href: "/projects", key: 1 },
@@ -10,10 +9,6 @@ const navigation = [
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-800 to-black">
-      <Particles
-        className="absolute inset-0 -z-10 animate-fade-in"
-        quantity={100}
-      />
       <nav className="my-16 animate-fade-in">
         <ul className="flex items-center justify-center gap-4">
           <Link href='/projects' as='projects' className="text-sm duration-500 text-zinc-500 hover:text-zinc-300">Projects</Link>
